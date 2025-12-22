@@ -9,22 +9,10 @@ export const uasProducts = [
       { label: "Range", value: "300 KM", icon: "/icons/icon-range.svg" },
       { label: "Payload", value: "15 KG", icon: "/icons/icon-maxPayload.svg" }
     ],
-    image: "https://images.unsplash.com/photo-1473968512647-3e447244af8f?q=80&w=800&auto=format&fit=crop"
+    image: "public/images/products/Astra.webp"
   },
   {
-    id: 2,
-    name: "RV Rudra",
-    type: "ICE Loitering Munition",
-    desc: "A rugged long-range tactical UAV engineered for deep-strike, loitering roles, and high-endurance mission support.",
-    specs: [
-      { label: "Payload", value: "15 KG", icon: "/icons/icon-maxPayload.svg" },
-      { label: "Range", value: "400 KM", icon: "/icons/icon-range.svg" },
-      { label: "Endurance", value: "4 Hours", icon: "/icons/icon-maxPayload.svg" }
-    ],
-    image: "https://images.unsplash.com/photo-1579829366248-204fe8413f31?q=80&w=800&auto=format&fit=crop"
-  },
-  {
-    id: 3,
+     id: 2,
     name: "RV Maya",
     type: "Jet Powered Bomber/Decoy",
     desc: "A multi-role tactical UAV engineered for precision strike missions and advanced decoy operations against enemy air defenses.",
@@ -33,10 +21,11 @@ export const uasProducts = [
       { label: "Propulsion", value: "Twin Indra RV 40", icon: "/icons/icon-Propulsion.svg" },
       { label: "Range", value: "300 KM", icon: "/icons/icon-range.svg" }
     ],
-    image: "https://images.unsplash.com/photo-1506947411487-a56738267384?q=80&w=800&auto=format&fit=crop"
+    image: "public/images/products/Maya.webp"
   },
   {
-    id: 4,
+    
+    id: 3,
     name: "RV Lakshya",
     type: "High Speed Expendable Target",
     desc: "A high-speed jet-powered target drone engineered for realistic aerial threat simulation and advanced weapons training.",
@@ -45,10 +34,10 @@ export const uasProducts = [
       { label: "Propulsion", value: "Indra RV 40 Micro Turbojet Engine", icon: "/icons/icon-Propulsion.svg" },
       { label: "Altitude", value: "8000 M", icon: "/icons/icon-Altitude.svg" }
     ],
-    image: "https://images.unsplash.com/photo-1473968512647-3e447244af8f?q=80&w=800&auto=format&fit=crop"
+    image: "public/images/products/Lakshya.webp"
   },
   {
-    id: 5,
+    id: 4,
     name: "RV Teja",
     type: "VTOL Kamikaze UAV System",
     desc: "A next-generation optical-spool FPV strike drone delivering unmatched accuracy, immunity to jamming, and high-impact payload.",
@@ -57,10 +46,10 @@ export const uasProducts = [
       { label: "Distance", value: "20 KM", icon: "/icons/icon-distance.svg" },
       { label: "EW Resilient", value: "Yes", icon: "/icons/icon-EW Resilient.svg" }
     ],
-    image: "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?q=80&w=800&auto=format&fit=crop"
+    image: "public/images/products/Teja.webp"
   },
   {
-    id: 6,
+    id: 5,
     name: "RV Drishti",
     type: "Tethered Drone System",
     desc: "A 24-hour tethered ISR platform built for continuous surveillance, jamming, and secure communication relay.",
@@ -69,7 +58,19 @@ export const uasProducts = [
       { label: "Payload", value: "15 KG", icon: "public/icons/icon-maxPayload.svg" },
       { label: "EO/IR + LRF", value: "10 KM", icon: "public/icons/icon-distance.svg" }
     ],
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=800&auto=format&fit=crop"
+    image: "public/images/products/Drishti.webp"
+  },
+  {
+    id: 6,
+    name: "RV Raksha 7",
+    type: "Anti Drone Gun",
+    desc: "A powerful multi-channel anti-drone gun delivering reliable suppression of hostile UAVs across seven frequency bands.​",
+    specs: [
+      { label: "Range", value: "2 KM", icon: "public/icons/icon-range.svg" },
+      { label: "Frequency Bands", value: "433MHz-5.8GHz", icon: "public/icons/icon-frequency.svg" },
+      { label: "Operation Time", value: "75 minutes", icon: "public/icons/icon-operation.svg" }
+    ],
+    image: "public/images/products/Raksha.webp"
   }
 ];
 
@@ -84,7 +85,7 @@ export const groundProducts = [
       { label: "Speed", value: "60 KM/H", icon: "/icons/icon-maxSpeed.svg" },
       { label: "Incline", value: "45°", icon: "/icons/icon-incline.svg" }
     ],
-    image: "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?q=80&w=800&auto=format&fit=crop"
+    image: "public/images/products/Yodha.webp"
   },
   {
     id: 2,
@@ -94,9 +95,9 @@ export const groundProducts = [
     specs: [
       { label: "System", value: "Autonomous", icon: "/icons/icon-Autonomous.svg" },
       { label: "Obstacle Detection", value: "360°", icon: "/icons/icon-360-degrees.svg" },
-      { label: "Towing", value: "20 Tonne", icon: "/icons/icon-tonne.svg" }
+      { label: "Towing Capacity", value: "20 Tonne", icon: "/icons/icon-tonne.svg" }
     ],
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=800&auto=format&fit=crop"
+    image: "public/images/products/Arrotug.webp"
   },
   {
     id: 3,
@@ -108,7 +109,7 @@ export const groundProducts = [
       { label: "Vertical Reach", value: "18 m", icon: "/icons/icon-distance.svg" },
       { label: "Brush", value: "Flexible + Modular", icon: "/icons/icon-flexibility.svg" }
     ],
-    image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=800&auto=format&fit=crop"
+    image: "public/images/products/ArroWash.webp"
   },
   {
     id: 4,
@@ -118,8 +119,8 @@ export const groundProducts = [
     specs: [
       { label: "Target Hit detection", value: "Real Time", icon: "/icons/icon-Target.svg" },
       { label: "Motion", value: "Multi-Axis", icon: "/icons/icon-Launch Typ.svg" },
-      { label: "Operation", value: "Multiple", icon: "/icons/icon-wireless.svg" }
+      { label: "Operation", value: "Wireless Muti-Unit synchronized", icon: "/icons/icon-wireless.svg" }
     ],
-    image: "https://upload.wikimedia.org/wikipedia/commons/e/ea/Oshkosh_M-ATV.jpg"
+    image: "public/images/products/MMTS.webp"
   }
 ];

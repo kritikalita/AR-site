@@ -41,7 +41,7 @@ const ProductSlider = () => {
             <DecryptText text="UAS & C-UAS Systems" />
           </h2>
           <p className="text-gray-400 mt-2 text-sm md:text-base">
-            Advanced autonomous defense solutions
+            Advanced systems for precision strike and tactical defense
           </p>
         </motion.div>
 

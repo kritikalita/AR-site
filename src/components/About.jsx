@@ -84,11 +84,11 @@ const About = () => {
               <span className="text-xs md:text-sm text-gray-500 uppercase tracking-wider mt-2 block">Indigenous</span>
             </div>
             <div>
-              <NumberCounter value={24} suffix="/7" />
-              <span className="text-xs md:text-sm text-gray-500 uppercase tracking-wider mt-2 block">Support</span>
+              <NumberCounter value={1000} suffix="+" />
+              <span className="text-xs md:text-sm text-gray-500 uppercase tracking-wider mt-2 block">Hours Tested</span>
             </div>
             <div>
-              <NumberCounter value={50} suffix="+" />
+              <NumberCounter value={30} suffix="+" />
               <span className="text-xs md:text-sm text-gray-500 uppercase tracking-wider mt-2 block">Engineers</span>
             </div>
             <div>

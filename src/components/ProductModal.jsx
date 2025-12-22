@@ -83,25 +83,6 @@ const ProductModal = ({ product, onClose }) => {
                     </div>
                 ))}
             </div>
-
-            {/* Extra Features List (Mocked for visual depth) */}
-            <div className="mt-auto">
-                <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
-                    <ShieldCheck size={16} className="text-cyan-500" />
-                    Mission Capabilities
-                </h3>
-                <ul className="space-y-3">
-                    <li className="flex items-start gap-3 text-sm text-gray-400">
-                        <Activity size={16} className="text-cyan-500 mt-0.5 shrink-0" />
-                        Real-time telemetry and autonomous navigation systems.
-                    </li>
-                    <li className="flex items-start gap-3 text-sm text-gray-400">
-                        <Zap size={16} className="text-cyan-500 mt-0.5 shrink-0" />
-                        High-redundancy power architecture for extended endurance.
-                    </li>
-                </ul>
-            </div>
-
         </div>
       </motion.div>
     </div>

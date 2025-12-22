@@ -61,7 +61,7 @@ const Capabilities = () => {
           {/* 2. UPDATED: Added height constraints (h-64 mobile, h-96 tablet) to prevent huge images */}
           <div className="relative h-64 md:h-96 lg:h-auto w-full">
             <img 
-              src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=2070" 
+              src="public/images/products/Caps.webp" 
               alt="Indigenous Manufacturing" 
               className="w-full h-full object-cover group-hover:grayscale transition-all duration-700 scale-105 group-hover:scale-100 rounded-lg"
             />

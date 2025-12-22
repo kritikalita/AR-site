@@ -40,7 +40,7 @@ const GroundSystems = () => {
             <DecryptText text="Robotics & Ground Systems" />
           </h2>
           <p className="text-gray-400 mt-2 text-sm md:text-base">
-            Autonomous logistics and support platforms
+            Autonomous solutions for tactical and logistical superiority
           </p>
         </motion.div>
 
