@@ -9,7 +9,7 @@ export const uasProducts = [
       { label: "Range", value: "300 KM", icon: "/icons/icon-range.svg" },
       { label: "Payload", value: "15 KG", icon: "/icons/icon-maxPayload.svg" }
     ],
-    image: "public/images/products/Astra.webp"
+    image: "/images/products/Astra.webp"
   },
   {
      id: 2,
@@ -21,7 +21,7 @@ export const uasProducts = [
       { label: "Propulsion", value: "Twin Indra RV 40", icon: "/icons/icon-Propulsion.svg" },
       { label: "Range", value: "300 KM", icon: "/icons/icon-range.svg" }
     ],
-    image: "public/images/products/Maya.webp"
+    image: "/images/products/Maya.webp"
   },
   {
     
@@ -34,7 +34,7 @@ export const uasProducts = [
       { label: "Propulsion", value: "Indra RV 40 Micro Turbojet Engine", icon: "/icons/icon-Propulsion.svg" },
       { label: "Altitude", value: "8000 M", icon: "/icons/icon-Altitude.svg" }
     ],
-    image: "public/images/products/Lakshya.webp"
+    image: "/images/products/Lakshya.webp"
   },
   {
     id: 4,
@@ -46,7 +46,7 @@ export const uasProducts = [
       { label: "Distance", value: "20 KM", icon: "/icons/icon-distance.svg" },
       { label: "EW Resilient", value: "Yes", icon: "/icons/icon-EW Resilient.svg" }
     ],
-    image: "public/images/products/Teja.webp"
+    image: "/images/products/Teja.webp"
   },
   {
     id: 5,
@@ -54,11 +54,11 @@ export const uasProducts = [
     type: "Tethered Drone System",
     desc: "A 24-hour tethered ISR platform built for continuous surveillance, jamming, and secure communication relay.",
     specs: [
-      { label: "Endurance", value: "24 Hours", icon: "public/icons/icon-endurance.svg" },
-      { label: "Payload", value: "15 KG", icon: "public/icons/icon-maxPayload.svg" },
-      { label: "EO/IR + LRF", value: "10 KM", icon: "public/icons/icon-distance.svg" }
+      { label: "Endurance", value: "24 Hours", icon: "/icons/icon-endurance.svg" },
+      { label: "Payload", value: "15 KG", icon: "/icons/icon-maxPayload.svg" },
+      { label: "EO/IR + LRF", value: "10 KM", icon: "/icons/icon-distance.svg" }
     ],
-    image: "public/images/products/Drishti.webp"
+    image: "/images/products/Drishti.webp"
   },
   {
     id: 6,
@@ -66,11 +66,11 @@ export const uasProducts = [
     type: "Anti Drone Gun",
     desc: "A powerful multi-channel anti-drone gun delivering reliable suppression of hostile UAVs across seven frequency bands.​",
     specs: [
-      { label: "Range", value: "2 KM", icon: "public/icons/icon-range.svg" },
-      { label: "Frequency Bands", value: "433MHz-5.8GHz", icon: "public/icons/icon-frequency.svg" },
-      { label: "Operation Time", value: "75 minutes", icon: "public/icons/icon-operation.svg" }
+      { label: "Range", value: "2 KM", icon: "/icons/icon-range.svg" },
+      { label: "Frequency Bands", value: "433MHz-5.8GHz", icon: "/icons/icon-frequency.svg" },
+      { label: "Operation Time", value: "75 minutes", icon: "/icons/icon-operation.svg" }
     ],
-    image: "public/images/products/Raksha.webp"
+    image: "/images/products/Raksha.webp"
   }
 ];
 
@@ -85,7 +85,7 @@ export const groundProducts = [
       { label: "Speed", value: "60 KM/H", icon: "/icons/icon-maxSpeed.svg" },
       { label: "Incline", value: "45°", icon: "/icons/icon-incline.svg" }
     ],
-    image: "public/images/products/Yodha.webp"
+    image: "/images/products/Yodha.webp"
   },
   {
     id: 2,
@@ -97,7 +97,7 @@ export const groundProducts = [
       { label: "Obstacle Detection", value: "360°", icon: "/icons/icon-360-degrees.svg" },
       { label: "Towing Capacity", value: "20 Tonne", icon: "/icons/icon-tonne.svg" }
     ],
-    image: "public/images/products/Arrotug.webp"
+    image: "/images/products/Arrotug.webp"
   },
   {
     id: 3,
@@ -109,7 +109,7 @@ export const groundProducts = [
       { label: "Vertical Reach", value: "18 m", icon: "/icons/icon-distance.svg" },
       { label: "Brush", value: "Flexible + Modular", icon: "/icons/icon-flexibility.svg" }
     ],
-    image: "public/images/products/ArroWash.webp"
+    image: "/images/products/ArroWash.webp"
   },
   {
     id: 4,
@@ -121,6 +121,6 @@ export const groundProducts = [
       { label: "Motion", value: "Multi-Axis", icon: "/icons/icon-Launch Typ.svg" },
       { label: "Operation", value: "Wireless Muti-Unit synchronized", icon: "/icons/icon-wireless.svg" }
     ],
-    image: "public/images/products/MMTS.webp"
+    image: "/images/products/MMTS.webp"
   }
 ];
