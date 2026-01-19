@@ -1,0 +1,147 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* --- 1. GLOBAL DEFAULTS & SCROLLBAR --- */
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* NUCLEAR OPTION: Override Swiper's Internal Color Variables Globally */
+:root {
+  /* ✅ UPDATED: Hardcoded your light blue (#73b2f8) */
+  --swiper-theme-color: #73b2f8 !important;
+  --swiper-navigation-color: #73b2f8 !important;
+  --swiper-pagination-color: #73b2f8 !important;
+}
+
+/* Custom Text Selection (Gradient) */
+::selection {
+  background: #73b2f8; /* Visible Blue */
+  color: #000;         /* Black text for contrast */
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #73b2f8; /* Light Blue */
+}
+
+/* --- 2. SWIPER ARROW CONFIGURATION --- */
+.swiper {
+  overflow: visible !important;
+}
+
+.swiper-button-prev {
+  left: -60px !important;
+}
+
+.swiper-button-next {
+  right: -60px !important;
+}
+
+/* Base Arrow Styling */
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: rgba(20, 20, 20, 0.9) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  color: #73b2f8 !important; /* Light Blue Icon */
+  width: 44px !important;
+  height: 44px !important;
+  border-radius: 50% !important;
+  z-index: 100 !important;
+  transition: all 0.3s ease !important;
+  display: none !important; 
+}
+
+@media (min-width: 768px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.swiper-button-disabled {
+  display: none !important;
+  opacity: 0 !important;
+}
+
+/* HOVER STATE: Gradient BG */
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  /* ✅ UPDATED: Hardcoded Gradient */
+  background: linear-gradient(135deg, #73b2f8 0%, #063677 100%) !important;
+  border: none !important;
+  color: white !important;
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(115, 178, 248, 0.4); 
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 18px !important;
+  font-weight: bold !important;
+  color: inherit !important; 
+}
+
+/* --- 3. SWIPER PAGINATION (DOTS) --- */
+.swiper-pagination-bullet {
+  background: white !important;
+  opacity: 0.5;
+}
+
+.swiper-pagination-bullet-active {
+  background: #73b2f8 !important; /* Light Blue */
+  opacity: 1;
+}
+
+/* --- 4. UTILITY FILTERS --- */
+.filter-white {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+}
+
+/* ✅ UPDATED: Recalculated matrix to target #73b2f8 exactly */
+.filter-blue {
+  filter: invert(70%) sepia(61%) saturate(4524%) hue-rotate(194deg) brightness(103%) contrast(96%);
+}
+
+/* --- 5. REUSABLE GRADIENT TEXT CLASS --- */
+/* ✅ UPDATED: Hardcoded CSS Gradient. 
+   Notice I put the Light Blue (#73b2f8) FIRST so it is visible on the left side of text */
+.text-gradient {
+  background: linear-gradient(90deg, #73b2f8 0%, #063677 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  display: inline-block; /* Often needed for gradients to work on text */
+}
+
+/* --- SWIPER FIXES --- */
+.swiper {
+  padding-bottom: 60px !important;
+}
+.swiper-pagination {
+  bottom: 0px !important; 
+  top: auto !important;
+  padding-bottom: 10px;
+}
+.swiper-pagination-bullet {
+  cursor: pointer;
+  z-index: 50;
+}
